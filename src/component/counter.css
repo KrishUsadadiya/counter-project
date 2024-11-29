@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-photo/fantasy-anime-style-scene_23-2151135101.jpg?t=st=1732884252~exp=1732887852~hmac=d425fe9679aa92388df4b928aab5e87b0df6d690a8279a9913c060c072ce184c);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card-counter{
+    width: 500px;
+    height: 500px;
+    background-color:rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 1% 50% 1% 50% ;
+}
+.card-counter:hover{
+    border-radius: 50% 1% 50% 1%;
+    transition: all linear 0.3s;
+}
+.counter-content{
+    padding-top: 50px;
+}
+.heading{
+    color: rgb(5, 90, 90);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.main-count{
+    margin: 80px 0;
+    color: rgb(48, 135, 131);
+    font-size: 50px;
+}
+.button-1, .button-2, .button-3{
+    margin: 0 10px;
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.button-1:hover{
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.button-2:hover{
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+.button-3:hover{
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
